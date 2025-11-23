@@ -3,7 +3,6 @@
 # Rootstock
 
 
-
 🏆 Freestyle Track ⸺ $2,000
 
 Build dapps on Rootstock and unleash your creativity. We’re looking for original solutions. Some examples include: 
@@ -29,6 +28,8 @@ We are two members, father and son. Alejandro (father) is a Systems Engineer, wi
  The experience was incredibly interesting, allowing us to integrate the functionalities, create accounts, integrate faucets, view them in the browser, and more. The available documentation guidelines are very clear.
 
 Example: 
+   
+
 ![RootStock](./resources/RootStock.png)
 ![RootStock](./resources/RootStockDeployed.png)
 ![HardHat Deployed](./resources/HardHatAddressDeployed.png)
