@@ -32,7 +32,7 @@ Example:
 
 ![RootStock](./resources/RootStock.png)
 ![RootStock](./resources/RootStockDeployed.png)
-![HardHat Deployed](https://imgur.com/BZ1eCe9)
+
 
  6) A short video demo or slide deck.
 
@@ -84,3 +84,5 @@ We aim to integrate World ID functionalities into the bot, enabling access to it
 # Help Command
 
 ![Help](./resources/HELP.png)
+
+video : https://youtu.be/dlr_swScYTI
