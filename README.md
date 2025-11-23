@@ -33,3 +33,39 @@ We are two members, father and son. Alejandro (father) is a Systems Engineer, wi
  6) A short video demo or slide deck.
 
  TODO:  Video URL
+
+
+# Hedera
+  EVM Innovator Track ⸺ $4,000
+
+  Hedera’s EVM compatibility allows developers to write Solidity contracts while benefiting from fast finality and low fees. This bounty is about using cross‑chain and real‑world data to build innovative dApps. Example ideas include multi‑chain financing, cross‑chain auctions or data‑driven trading bots.
+
+  Qualification Requirements
+
+1. Deploy and verify a smart contract on Hedera — use Hedera mainnet, testnet or previewnet; verify contracts on Hashscan. 
+
+We performed an implementation using the Account ID 0.0.7306908 and the corresponding EVM Address 0x9531f8ef72919d2b1ca6b3eacb2623f4c95d1f72
+
+2. Integrate oracles and/or bridges — consume external price feeds from Chainlink, Pyth or Supra, and/or use Chainlink CCIP, LayerZero or HashPort for cross‑chain transfers. 
+
+We performed an implementation with the account ID
+
+0.0.7306908 and the corresponding EVM address
+
+0x9531f8ef72919d2b1ca6b3eacb2623f4c95d1f72, verifying and viewing it in Hashscan. On one hand, with the command `!hederaContract` we can view the status of the deployed contract, and on the other hand, with `!hederabalance` we can view our account balance.
+
+Integramos el bot utilizando la testnet 
+ HEDERA_MIRROR_TESTNET = "https://testnet.mirrornode.hedera.com/api/v1/accounts/";
+3. Use Hedera services where relevant — consider HTS System Contracts or the Token Service for hybrid native/EVM functionality. 
+
+Although we do not integrate services due to time constraints, it is possible to extend and implement these functionalities in future work.
+
+
+4. Deliverables —novel real‑world use case.
+
+One of the main applications of this bot can be extended to be a Hedera airdrop, as well as a creator of private accounts for users who have no experience, or it is also possible to integrate it with Hedera's existing AI bot APIs.
+
+VIDEO: 
+
+
+
