@@ -1,5 +1,5 @@
 
-![Project Logo](resources/LOGO.png)
+![Project Logo](./resources/LOGO.png)
 # Rootstock
 
 
@@ -29,9 +29,9 @@ We are two members, father and son. Alejandro (father) is a Systems Engineer, wi
  The experience was incredibly interesting, allowing us to integrate the functionalities, create accounts, integrate faucets, view them in the browser, and more. The available documentation guidelines are very clear.
 
 Example: 
-![RootStock](resources/RootStock.png)
-![RootStock](resources/RootStockDeployed.png)
-![HardHat Deployed](resources/HardHatAddressDeployed.png)
+![RootStock](./resources/RootStock.png)
+![RootStock](./resources/RootStockDeployed.png)
+![HardHat Deployed](./resources/HardHatAddressDeployed.png)
 
  6) A short video demo or slide deck.
 
@@ -82,4 +82,4 @@ We aim to integrate World ID functionalities into the bot, enabling access to it
 
 # Help Command
 
-![Help](resources/HELP.png)
+![Help](./resources/HELP.png)
