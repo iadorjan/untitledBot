@@ -1,18 +1,16 @@
+
+![Project Logo](resources/LOGO.png)
 # Rootstock
 
+
+
 🏆 Freestyle Track ⸺ $2,000
-Up to 2 teams will receive $1,000
+
 Build dapps on Rootstock and unleash your creativity. We’re looking for original solutions. Some examples include: 
-
-🔸DeFi Automation Agents 
-🔸Smart Contract Assistants 
-🔸Cross-Chain Interoperability Agents 
-🔸Decentralized Governance Helpers
-
-
 
 1) Clear short one-sentence description of your submission:
 Our bot aims to integrate the functionalities and APIs available from Rootstock. For example, it can display account balances and provide access within the Discord bot to view transactions or network deployments made by users.
+We also integrate the HardHat template for deploying contracts.  
 
 2) Short description of what you integrated Rootstock with and how. 
 
@@ -30,13 +28,18 @@ We are two members, father and son. Alejandro (father) is a Systems Engineer, wi
  
  The experience was incredibly interesting, allowing us to integrate the functionalities, create accounts, integrate faucets, view them in the browser, and more. The available documentation guidelines are very clear.
 
+Example: 
+![RootStock](resources/RootStock.png)
+![RootStock](resources/RootStockDeployed.png)
+![HardHat Deployed](resources/HardHatAddressDeployed.png)
+
  6) A short video demo or slide deck.
 
  TODO:  Video URL
 
 
 # Hedera
-  EVM Innovator Track ⸺ $4,000
+  EVM Innovator Track 
 
   Hedera’s EVM compatibility allows developers to write Solidity contracts while benefiting from fast finality and low fees. This bounty is about using cross‑chain and real‑world data to build innovative dApps. Example ideas include multi‑chain financing, cross‑chain auctions or data‑driven trading bots.
 
@@ -60,6 +63,8 @@ Integramos el bot utilizando la testnet
 
 Although we do not integrate services due to time constraints, it is possible to extend and implement these functionalities in future work.
 
+![Hedera](resources/Hedera.png)
+
 
 4. Deliverables —novel real‑world use case.
 
@@ -70,7 +75,11 @@ VIDEO: TODO
 
 # World 
 
-## World Pool Prize ⸺ $3,000
+## World Pool Prize 
 
 
 We aim to integrate World ID functionalities into the bot, enabling access to its main features. For example, the command !worldbalance allows users to view their account balance. This functionality can be extended to existing accounts, account inquiries, airdrops, and account creation, making it easier for newcomers to the community.
+
+# Help Command
+
+![Help](resources/HELP.png)
