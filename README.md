@@ -1,4 +1,4 @@
-Hedera 
+# Hedera 
 
 EVM Innovator track 
 
@@ -50,3 +50,23 @@ Qualification Requirements
  TODO: QR
 
  
+# Rootstock
+
+About
+Rootstock is the first Bitcoin sidechain that brings Ethereum-compatible smart contracts to the Bitcoin network. It combines Bitcoin’s unmatched security and liquidity with the flexibility of the EVM, enabling developers to build scalable DeFi, NFT, and dApp solutions powered by Bitcoin.
+
+Freestyle Track ⸺ $2,000
+
+Qualification Requirements
+Qualification Requirements - Smart contract deployed in Rootstock and at least 2 on-chain (testnet) successful transactions. - Projects must have a description and a GitHub repository with a descriptive README. - The README should include: 1) Clear short one-sentence description of your submission. 2) Short description of what you integrated Rootstock with and how. 3) Short description of the team and their backgrounds. 4) Clear instructions for testing the integration. 5) Feedback describing your experience with building on Rootstock. 6) A short video demo or slide deck.
+
+# World
+
+About
+Building a mini app means you will get instant exposure to the 23 million World App users. All World App users already have an integrated wallet and free transaction fees on World Chain (part of the super chain). We will be working closely with teams that want to build a real app reaching millions of people this weekend. To be considered for the Mini App bounties you MUST use any of the Minikit SDK commands found on our docs. Learn more: https://www.youtube.com/watch?v=QJ0htHP6lb0
+ World Pool Prize ⸺ $3,000
+ 
+Split evenly between all qualifying projects
+This pool prize is for all projects that build within the World ecosystem (and don't receive another prize from World)!
+Qualification Requirements
+- make a good-faith effort to integrate World ID, build a Mini App, and/or build on World Chain - your project must not be gambling or chance based
