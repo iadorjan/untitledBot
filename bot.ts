@@ -408,4 +408,35 @@ client.on("message", async (msg) => {
   }
 });
 
+// Command: !help -> list available commands and short descriptions
+client.on("message", async (msg) => {
+  try {
+    if (msg.content === "!help") {
+      const helpEmbed = new MessageEmbed()
+        .setTitle("Available Commands")
+        .setColor(EMBED_COLOR_PRIMARY)
+        .setDescription("List of commands supported by this bot")
+        .addField("`!help`", "Show this help message", true)
+        .addField("`!rootstock`", "Intro and help for Rootstock", true)
+        .addField("`!rootblock`", "Get current Rootstock testnet block number", true)
+        .addField("`!rootbalance [address]`", "Get R-BTC balance for an address (defaults provided example)", true)
+        .addField("`!world`", "General World chain info and links", true)
+        .addField("`!worldbalance [address]`", "Get native balance on World chain (defaults to ACCOUNT_PUBLIC_WORLD)", true)
+        .addField("`!hedera`", "General Hedera info and links", true)
+        .addField("`!hederabalance [accountId]`", "Get HBAR balance for a Hedera account (defaults to HEDERA_ACCOUNT)", true)
+        .addField("`!hederaContract`", "Hedera contract/info links", true)
+        .addField("`!txinfo [txId|url]`", "Get Hedera transaction details (accepts Hashscan URL or tx id)", true)
+        .addField("`!fetchhashscan [url]`", "Fetch a trimmed HTML preview from Hashscan or any URL", true)
+        .addField("`!ping`", "Show bot info and example account balance", true)
+        .setFooter(BOT_NAME_FOOTER, IMAGE_DEFAULT)
+        .setTimestamp();
+
+      msg.channel.send(helpEmbed);
+    }
+  } catch (e) {
+    msg.reply("ERROR");
+    console.log(new Date().toISOString(), "ERROR", e.stack || e);
+  }
+});
+
 client.login(process.env.DISCORD_TOKEN);
