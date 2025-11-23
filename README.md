@@ -32,7 +32,7 @@ Example:
 
 ![RootStock](./resources/RootStock.png)
 ![RootStock](./resources/RootStockDeployed.png)
-![HardHat Deployed](https://github.com/iadorjan/untitledBot/blob/cb7d70f055e63a2a9c5a198550f09cd80504b1c7/resources/RootStockDeployed.png)
+![HardHat Deployed](https://imgur.com/BZ1eCe9)
 
  6) A short video demo or slide deck.
 
