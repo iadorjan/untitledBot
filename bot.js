@@ -40,12 +40,16 @@ const TOKEN_NAME = 'HBAR';
 const EXAMPLE_HELP = "`!help` - Display this help message\n";
 console.log(`SHedera-World-RootBot Start ....`);
 console.log(`Connecting .....`);
+const BLOCK_EXPLORER_WORLD = 'https://sepolia.worldscan.org';
 const client = new discord_js_1.Client();
 const web3 = new web3_1.default(process.env.RPC_URL);
 let user_address = process.env.ADDRESS;
 let private_key_hedera = process.env.ACCOUNT_PRIVATE_KEY_HEDERA;
 let RPC_URL_HEDERA = process.env.RPC_URL_HEDERA;
+const URL_CHAINLIST_WORLD = 'https://chainlist.org/?search=world&testnets=true';
+const URL_PRIZES = 'https://ethglobal.com/events/buenosaires/home';
 const ROOTSTOCK_RPC_URL = "https://rpc.testnet.rootstock.io/gg1EqN38geRB99w7kX1x114dLFMre9-T";
+const URL_ETHGLOBAL_FAUCETS = 'https://ethglobal.com/faucet';
 function getRootstockBlockNumber() {
     const postData = JSON.stringify({
         jsonrpc: "2.0",
