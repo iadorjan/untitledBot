@@ -65,7 +65,12 @@ Although we do not integrate services due to time constraints, it is possible to
 
 One of the main applications of this bot can be extended to be a Hedera airdrop, as well as a creator of private accounts for users who have no experience, or it is also possible to integrate it with Hedera's existing AI bot APIs.
 
-VIDEO: 
+VIDEO: TODO
 
 
+# World 
 
+## World Pool Prize ⸺ $3,000
+
+
+We aim to integrate World ID functionalities into the bot, enabling access to its main features. For example, the command !worldbalance allows users to view their account balance. This functionality can be extended to existing accounts, account inquiries, airdrops, and account creation, making it easier for newcomers to the community.
